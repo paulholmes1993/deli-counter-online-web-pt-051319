@@ -7,5 +7,6 @@ def line(katz_deli)
   else
     number >= 1
     katz_deli.each do |num|
-      line_positions << 
+      line_positions << :"#(number). (customer)"
+      
       
