@@ -8,5 +8,10 @@ def line(katz_deli)
     number >= 1
     katz_deli.each do |num|
       line_positions << :"#(number). (customer)"
-      
+      number += 1
+    end
+    puts "The line is currently: #{line_positions.join(" ")}"
+  end
+  
+  
       
